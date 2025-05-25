@@ -1,0 +1,15 @@
+{
+    "name": "DropdownSelector",
+    "author": "3close Agency UG (haftungsbeschränkt)",
+    "views": [
+        "@Storefront",
+        "@Plugins"
+    ],
+    "style": [
+        "app/storefront/src/scss/base.scss"
+    ],
+    "script": [
+        "app/storefront/dist/storefront/js/dropdown-selector"
+    ],
+    "asset": []
+}
