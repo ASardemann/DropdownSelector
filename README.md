@@ -1,32 +1,31 @@
 # DropdownSelector Plugin
 
-A Shopware 6 plugin that adds a customizable dropdown selector to the buy widget in the storefront.
+A Shopware 6 plugin that replaces the standard quantity selector with a dropdown selector in the storefront's buy widget.
 
 ## Features
 
-- Adds a customizable dropdown selector to the product buy widget
+- Replaces the default quantity input with a dropdown selector in the product buy widget
 - Seamlessly integrates with the Shopware 6 storefront
-- Customizable styling through SCSS
-- Easy to configure through the Shopware admin panel
+- Smart positioning for optimal display on all screen sizes
 
 ## Functionality Overview
 
-The DropdownSelector plugin enhances your Shopware 6 product pages with an intelligent and adaptive dropdown selector. Here's a detailed look at how it works:
+The DropdownSelector plugin transforms your Shopware 6 product pages by replacing the standard quantity input with an intelligent dropdown selector. Here's a detailed look at how it works:
 
 ### Plugin Administration
 ![Plugin Configuration](images/picplugin.png)
 
-*Configure the plugin settings easily through the Shopware administration panel. Customize the dropdown behavior to match your store's needs.*
+*View plugin status through the Shopware administration panel.*
 
 ### Default Product Page
 ![Default Product View](images/picdefault.png)
 
-*The standard Shopware product page layout before activating the DropdownSelector plugin. This serves as a baseline for comparison.*
+*The standard Shopware product page layout with the default quantity selector before activating the DropdownSelector plugin. This serves as a baseline for comparison.*
 
 ### Dropdown Functionality
 ![Dropdown Expanded Down](images/picdown.png)
 
-*Once activated, the dropdown selector expands downward by default, providing a clean and intuitive interface for product options.*
+*Once activated, the new dropdown selector replaces the default quantity input and expands downward by default, providing a clean and intuitive interface for quantity selection.*
 
 ### Smart Positioning
 ![Dropdown Expanded Up](images/picup.png)
@@ -35,7 +34,7 @@ The DropdownSelector plugin enhances your Shopware 6 product pages with an intel
 
 ## Requirements
 
-- Shopware 6.4.0.0 or higher
+- Shopware 6.4.0 or higher
 - PHP 7.4 or higher
 
 ## Installation
@@ -73,11 +72,11 @@ bin/console cache:clear
    - Click "Install" and then "Activate"
 4. Clear the cache through the Shopware Admin Panel
 
-## Configuration
+## Activation
 
 1. Go to Settings > System > Plugins
 2. Find "DropdownSelector" in the plugin list
-3. Click on "Config" to adjust the plugin settings
+3. Ensure the plugin is activated
 
 ## Contributing
 
