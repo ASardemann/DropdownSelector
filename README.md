@@ -39,27 +39,32 @@ The DropdownSelector plugin transforms your Shopware 6 product pages by replacin
 
 ## Installation
 
-### Via Composer (recommended)
+### Via ZIP Upload (recommended)
 
-1. Change to your Shopware installation directory
-```bash
-cd /path/to/shopware
+1. Download the latest ZIP release
+2. Log in to your Shopware Admin Panel
+3. Navigate to Settings > System > Plugins
+4. Click on "Upload plugin" and select the downloaded ZIP file
+5. Install and activate the plugin through the Admin Panel
+
+### Via Composer (for development)
+
+1. Add your plugin path to the root composer.json of your Shopware installation:
+```powershell
+composer config repositories.dropdown-selector '{"type": "path", "url": "custom/plugins/DropdownSelector"}'
 ```
 
-2. Install the plugin via Composer
-```bash
-composer require vendor/dropdownselector
+2. Require and install the plugin:
+```powershell
+composer require swag/dropdown-selector
 ```
 
-3. Install and activate the plugin
-```bash
-bin/console plugin:install DropdownSelector
-bin/console plugin:activate DropdownSelector
-```
-
-4. Clear the cache
-```bash
-bin/console cache:clear
+3. Install and activate:
+```powershell
+php bin\console plugin:refresh
+php bin\console plugin:install DropdownSelector
+php bin\console plugin:activate DropdownSelector
+php bin\console cache:clear
 ```
 
 ### Manual Installation
@@ -67,7 +72,7 @@ bin/console cache:clear
 1. Download the latest release
 2. Extract the archive to your Shopware installation directory:
    ```powershell
-   %SHOPWARE_ROOT%/custom/plugins/DropdownSelector
+   .../custom/plugins/DropdownSelector
    ```
    Make sure the folder structure is exactly as shown above.
 
