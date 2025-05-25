@@ -15,18 +15,22 @@ The DropdownSelector plugin enhances your Shopware 6 product pages with an intel
 
 ### Plugin Administration
 ![Plugin Configuration](images/picplugin.png)
+
 *Configure the plugin settings easily through the Shopware administration panel. Customize the dropdown behavior to match your store's needs.*
 
 ### Default Product Page
 ![Default Product View](images/picdefault.png)
+
 *The standard Shopware product page layout before activating the DropdownSelector plugin. This serves as a baseline for comparison.*
 
 ### Dropdown Functionality
 ![Dropdown Expanded Down](images/picdown.png)
+
 *Once activated, the dropdown selector expands downward by default, providing a clean and intuitive interface for product options.*
 
 ### Smart Positioning
 ![Dropdown Expanded Up](images/picup.png)
+
 *The plugin features intelligent boundary detection - when there's insufficient space below, it automatically expands upward to ensure all options remain visible on screen.*
 
 ## Requirements
