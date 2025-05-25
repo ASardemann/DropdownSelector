@@ -65,12 +65,26 @@ bin/console cache:clear
 ### Manual Installation
 
 1. Download the latest release
-2. Extract the archive to `custom/plugins/DropdownSelector` in your Shopware installation
-3. Install and activate the plugin through the Shopware Admin Panel:
+2. Extract the archive to your Shopware installation directory:
+   ```powershell
+   %SHOPWARE_ROOT%/custom/plugins/DropdownSelector
+   ```
+   Make sure the folder structure is exactly as shown above.
+
+3. Execute the following commands in your Shopware root directory:   ```powershell
+   php bin/console cache:clear
+   php bin/console plugin:refresh
+   php bin/console plugin:install DropdownSelector
+   ```
+
+4. Optional: If the plugin is not automatically activated after installation, either:
+   - Run `php bin/console plugin:activate DropdownSelector` in the terminal
+   - Or activate it through the Shopware Admin Panel
+
+5. Verify installation in the Shopware Admin Panel:
    - Go to Settings > System > Plugins
    - Find "DropdownSelector" in the plugin list
-   - Click "Install" and then "Activate"
-4. Clear the cache through the Shopware Admin Panel
+   - The plugin should be listed as "Installed" and "Active"
 
 ## Activation
 
