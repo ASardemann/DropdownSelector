@@ -34,7 +34,7 @@ The DropdownSelector plugin transforms your Shopware 6 product pages by replacin
 
 ## Requirements
 
-- Shopware 6.4.0 or higher
+- Shopware 6.6.0 or higher
 - PHP 7.4 or higher
 
 ## Installation
