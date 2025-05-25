@@ -71,7 +71,8 @@ bin/console cache:clear
    ```
    Make sure the folder structure is exactly as shown above.
 
-3. Execute the following commands in your Shopware root directory:   ```powershell
+3. Execute the following commands in your Shopware root directory:   
+   ```powershell
    php bin/console cache:clear
    php bin/console plugin:refresh
    php bin/console plugin:install DropdownSelector
