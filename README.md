@@ -39,15 +39,7 @@ The DropdownSelector plugin transforms your Shopware 6 product pages by replacin
 
 ## Installation
 
-### Via ZIP Upload (recommended)
-
-1. Download the latest ZIP release
-2. Log in to your Shopware Admin Panel
-3. Navigate to Settings > System > Plugins
-4. Click on "Upload plugin" and select the downloaded ZIP file
-5. Install and activate the plugin through the Admin Panel
-
-### Via Composer (for development)
+### Via Composer 
 
 1. Add your plugin path to the root composer.json of your Shopware installation:
 ```powershell
