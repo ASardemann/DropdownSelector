@@ -73,13 +73,13 @@ bin/console cache:clear
 
 3. Execute the following commands in your Shopware root directory:   
    ```powershell
-   php bin/console cache:clear
-   php bin/console plugin:refresh
-   php bin/console plugin:install DropdownSelector
+   php bin\console cache:clear
+   php bin\console plugin:refresh
+   php bin\console plugin:install DropdownSelector
    ```
 
 4. Optional: If the plugin is not automatically activated after installation, either:
-   - Run `php bin/console plugin:activate DropdownSelector` in the terminal
+   - Run `php bin\console plugin:activate DropdownSelector` in the terminal
    - Or activate it through the Shopware Admin Panel
 
 5. Verify installation in the Shopware Admin Panel:
