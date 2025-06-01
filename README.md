@@ -1,6 +1,7 @@
 # DropdownSelector Plugin
 
 A Shopware 6 plugin that replaces the standard quantity selector with a dropdown selector in the storefront's buy widget.
+This plugin is an independent, open-source solution and is not affiliated with or officially endorsed by Shopware.
 
 ## Features
 
